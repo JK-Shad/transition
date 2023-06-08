@@ -1,0 +1,112 @@
+
+body
+
+
+/* Transition*/
+/* 
+.transition {
+   text-align: center;
+   font-size: 14px;
+   transition-property: font-size;
+   transition-duration: 4s;
+   transition-delay: 2s;
+   transition-timing-function: ease-in-out;
+
+}
+
+.transition:hover {
+    font-size: 50px;
+}  */
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: block;
+    margin: 0 auto; 
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box:hover {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    transform: rotate(360deg);
+} */
+
+
+/* .skew {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: block;
+    margin: 0 auto;
+    transition: transform 2s;
+}
+
+
+.skew:hover { 
+    transform: skew(45deg);
+} */
+
+
+/* .scale {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: block;
+    margin: 0 auto;
+    transition: transform 2s;
+}
+
+/* .scale:hover { 
+    transform: scale(2);
+} */
+
+/* .translate {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: block;
+    margin: 0 auto;
+    transition: transform 2s;
+} */
+
+/* .translate:hover {
+    transform: translate(100px, 100px);
+} */
+
+/* polling message */
+
+.polling_message {
+    color: white;
+    float: left;
+    margin-right: 2%;
+}
+
+.view_port {
+    width: 100%;
+    height: 25px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.cyclone_eye {
+    width: 20%;
+    height: 100%;
+    background-color: red;
+    background-image:linear-gradient(to right, rgba(0,0,0,0.9) 25%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.9)) 75%;
+    color: white;
+    width: 20%;
+    height: 100%;
+    animation: 4s linear infinite alternate move_eye;
+}
+
+@keyframes move_eye {
+    from{
+        margin-left: -20%;
+    }
+    to{
+        margin-left: 100%;
+    }
+}
